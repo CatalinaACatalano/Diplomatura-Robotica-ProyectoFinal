@@ -73,11 +73,11 @@ void loop() {
  // Muestra de resultados en la pantalla
   lcdAmbiente.clear();
   lcdAmbiente.setCursor(0,0);
-  lcdAmbiente.print("Temper. = ");
+  lcdAmbiente.print("Temp. = ");
   lcdAmbiente.print(temperaturaAmbiente);
   lcdAmbiente.print(" C");
   lcdAmbiente.setCursor(0,1);
-  lcdAmbiente.print("Humedad = ");
+  lcdAmbiente.print("Humed. = ");
   lcdAmbiente.print(humedadAmbiente);
   lcdAmbiente.print(" % ");
  
